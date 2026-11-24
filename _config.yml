@@ -13,7 +13,7 @@ back_to_top: true
 back_to_top_text: "Наверх"
 footer_content: "«Документы СБИС» для Битрикс24 · Не нашли ответа — кнопка «Поддержка» в приложении"
 color_scheme: bitrix
-logo: "/assets/img/logo.svg"
+logo: "/assets/img/logo.png"
 callouts_level: quiet
 callouts:
   important:
