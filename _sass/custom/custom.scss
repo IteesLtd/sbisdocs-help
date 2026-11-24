@@ -1,0 +1,8 @@
+// скриншоты приложения — рамка и тень, чтобы не сливались со страницей
+.main-content img {
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin: 0.5rem 0 1rem;
+}
+.site-title { font-weight: 600; }

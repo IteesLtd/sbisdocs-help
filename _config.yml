@@ -4,7 +4,6 @@ lang: ru
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 plugins:
   - jekyll-remote-theme
-color_scheme: light
 search_enabled: true
 search:
   heading_level: 2
@@ -13,3 +12,16 @@ heading_anchors: true
 back_to_top: true
 back_to_top_text: "Наверх"
 footer_content: "«Документы СБИС» для Битрикс24 · Не нашли ответа — кнопка «Поддержка» в приложении"
+color_scheme: bitrix
+logo: "/assets/img/logo.svg"
+callouts_level: quiet
+callouts:
+  important:
+    title: Важно
+    color: blue
+  warning:
+    title: Внимание
+    color: red
+  tip:
+    title: Совет
+    color: green
