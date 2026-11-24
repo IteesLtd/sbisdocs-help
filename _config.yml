@@ -1,3 +1,15 @@
-title: Документы СБИС — справка
+title: Документы СБИС
+description: Справка приложения «Документы СБИС» для Битрикс24
 lang: ru
-theme: minima
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 2
+  button: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Наверх"
+footer_content: "«Документы СБИС» для Битрикс24 · Не нашли ответа — кнопка «Поддержка» в приложении"
