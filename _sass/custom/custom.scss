@@ -6,3 +6,15 @@
   margin: 0.5rem 0 1rem;
 }
 .site-title { font-weight: 600; }
+
+// тёмная тема: заголовок выноски светлый, фон — прозрачный оттенок, текст читается
+@media (prefers-color-scheme: dark) {
+  .main-content {
+    .important, .important-title { background: rgba(0, 117, 255, 0.16) !important; }
+    .warning, .warning-title { background: rgba(255, 87, 87, 0.16) !important; }
+    .tip, .tip-title { background: rgba(43, 196, 120, 0.16) !important; }
+    .important::before, .important-title > p:first-child { color: #8cc2ff !important; }
+    .warning::before, .warning-title > p:first-child { color: #ff9b9b !important; }
+    .tip::before, .tip-title > p:first-child { color: #8ee6b8 !important; }
+  }
+}
