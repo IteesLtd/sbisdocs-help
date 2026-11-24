@@ -10,3 +10,4 @@ permalink: /trouble/
 
 - [Если что-то не так]({{ "/problems/" | relative_url }})
 - [Если документ удалили в Битрикс24]({{ "/removed/" | relative_url }})
+- [Сообщения и ошибки]({{ "/messages/" | relative_url }})
